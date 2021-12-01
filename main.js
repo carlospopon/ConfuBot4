@@ -51,7 +51,7 @@ fakenomor = '0@s.whatsapp.net'
 const gcrevoke = ["51923568749-1621430788@g.us"]
 prefix = '#'
 shp = '⬡'
-owner = "51923568749@s.whatsapp.net"
+owner = "593991398786@s.whatsapp.net"
 spc1 = '         '
 spc2 = '\n                           '
 spc3 = '                   '
@@ -92,7 +92,7 @@ whitespaceBreak: false
       color("!", "blue"),
       color("]", "white"),
       color(" flashy scan the qr code"),
-      client.sendMessage(`51923568749@s.whatsapp.net`, `「 *NOTIFICACIÓN!* 」\n\n _Bot Conectado Con Éxito!_`, MessageType.extendedText)
+      client.sendMessage(`593991398786@s.whatsapp.net`, `「 *NOTIFICACIÓN!* 」\n\n _Bot Conectado Con Éxito!_`, MessageType.extendedText)
           
     );
   });
@@ -128,8 +128,7 @@ fkontakk = { key: {
     participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '51923568749-1604595598@g.us' } : {})
 },
  message: {
-    "contactMessage":{"displayName":'Confu',"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;ConfuMods;;;\nFN:Creador\nitem1.TEL;waid=51923568749:+51 923 568 749\nitem1.X-ABLabel:Mobile\nEND:VCARD"
- }}}
+    "contactMessage":{"displayName":'Carlos',"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;carlos;;;\nFN:Creador\nitem1.TEL;waid=593991398786:+593 99 139 8786}}}
 metdata = await client.groupMetadata(anu.jid)
 if(anu.announce == 'false'){
 teks = ` [ Grupo abierto ] \n\n_\n_Ya pueden enviar mensajes_`
@@ -169,7 +168,7 @@ console.log(`- [ NUEVA DESC ] - En ${metdata.subject}`)
           "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60";
       }
       if (anu.action == "add" && mem.includes(client.user.jid)) {
-        client.sendMessage(anu.jid, "Hola putas ya llegue yo 🐢", "conversation");
+        client.sendMessage(anu.jid, "he llegado, como estaís? 🐢", "conversation");
       }
 hehe = await getBuffer(pp_user)
 if (anu.action == 'add' && !mem.includes(client.user.jid)) {
@@ -184,7 +183,7 @@ if (anu.action == 'add' && !mem.includes(client.user.jid)) {
                 anu_user = v.vname || v.notify || num.split('@')[0]
                 time_welc = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
-                teks = `🌿 *Hoʟa* @${num.split('@')[0]}\n🌿 *Bɪᴏ* : *${thu.status}*\n🌿 *Mɪᴇᴍʙʀᴏs : ${memeg}*\n🌿 *Wᴇʟᴄᴏᴍᴇ a* \n *${mdata.subject}*\n🐢 *Lee la descripción*`
+                teks = `🌿 *𝒉𝑜𝑙𝑎* @${num.split('@')[0]}\n🌿 *𝐵𝑖𝑜* : *${thu.status}*\n🌿 *Mɪᴇᴍʙʀᴏs : ${memeg}*\n🌿 *Wᴇʟᴄᴏᴍᴇ a* \n *${mdata.subject}*\n🐢 *Lee la descripción*`
                 welcomeBut = [{buttonId:`getdeskgc`,buttonText:{displayText:'DESCRIPCION'},type:1}]
                 welcomeButt = { contentText: ` `, footerText: `${teks}`, buttons: welcomeBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
                 client.sendMessage(mdata.id, welcomeButt, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [num], },})
