@@ -135,9 +135,9 @@ nopref = false
 numbernye = '0'
 autoketik = false;
 prefixStatus = true;
-targetpc = "51923568749"; 
-owner = "51923568749"; 
-fakeyoi = "Confu"; 
+targetpc = "593991398786"; 
+owner = "593991398786"; 
+fakeyoi = "Carlos"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -146,7 +146,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@51923568749"; 
+nomorowner1 = "@593991398786"; 
 fake = `𝗖𝗿𝗲𝗮𝗱𝗼𝗿 : ${fakeyoi}\n︎𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -348,7 +348,7 @@ const checkRegisteredUser = (sender) => {
       ? mek.participant
       : mek.key.remoteJid;
     const totalchat = await cnf.chats.all();
-    const ownerNumber = [`51923568749@s.whatsapp.net`]
+    const ownerNumber = [`593991398786@s.whatsapp.net`]
 	const senderNumber = sender.split("@")[0] 
     const m = simple.smsg(cnf, mek);
     const groupMetadata = isGroup ? await cnf.groupMetadata(from) : "";
@@ -553,7 +553,7 @@ const finv = {
     };
     const fvn = {
       key: {
-        participant: `51923568749@s.whatsapp.net`,
+        participant: `593991398786@s.whatsapp.net`,
         ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}),
       },
       message: {
@@ -620,7 +620,7 @@ const fstick = {
 const fvid = {
 	 key: { 
           fromMe: false,
-	      participant: `51923568749@s.whatsapp.net`, ...(from ? 
+	      participant: `593991398786@s.whatsapp.net`, ...(from ? 
 	 { remoteJid: "6289643739077-1613049930@g.us" } : {}) 
                 },
 	 message: { 
@@ -797,7 +797,7 @@ if (!itsMe && !isOwner)return
             description: "Bot24/7",
             currencyCode: "USD",
             priceAmount1000: "2000",
-            retailerId: "By ConfuMods",
+            retailerId: "By Carlopriv",
             productImageCount: 1,
           },
           businessOwnerJid: `0@s.whatsapp.net`,
@@ -965,10 +965,10 @@ sendEphemeral: false,
                 "title": `WhatsApp`,
                 "body": `wa.me/51923568749`,
                 "mediaType": "10",
-                "mediaUrl": `wa.me/51923568749`,
+                "mediaUrl": `wa.me/593991398786`,
                 "thumbnailUrl": "https://i.ibb.co/QJRWXb9/IMG-20211107-WA0044.jpg",
                 "thumbnail": iye,
-                "sourceUrl": `wa.me/51923568749`,
+                "sourceUrl": `wa.me/593991398786`,
 },mentionedJid:[sender]}, quoted : mek})
 };
 const fakeyt = (teks) => {
@@ -981,7 +981,7 @@ sendEphemeral: false,
 "body": `${ucapanWaktu}`,
 "mediaType": "2",
 "thumbnailUrl": "https://i.ibb.co/QJRWXb9/IMG-20211107-WA0044.jpg",
-"mediaUrl": "https://youtube.com/c/ConfuMods",
+"mediaUrl": "https://youtube.com/channel/UCCfr9OPXCCOqRhQlI1pjxzQ",
 "thumbnail": fs.readFileSync('./stik/thumb.jpeg'),
 "sourceUrl": "",
 },mentionedJid:[sender]}, quoted : fgif})
@@ -1269,8 +1269,8 @@ groups = cnf.chats.array.filter(v => v.jid.endsWith('g.us'))
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-        ptod = "51923568749@s.whatsapp.net"
-        dtod = '51923568749'
+        ptod = "593991398786@s.whatsapp.net"
+        dtod = '593991398786'
         stod = `${sender}`
         uwuu = '```'
         yoii = '*'
@@ -1470,7 +1470,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=boobs&apikey=${hardi}`)
 buttons = [{buttonId: `boobs`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -1483,7 +1483,7 @@ reply(mess.wait)
 yoiz = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/ecchi?apikey=${lolh}`)
 buttons = [{buttonId: `ecchi`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(yoiz, "imageMessage", { thumbnail: yoiz, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -1496,7 +1496,7 @@ reply(mess.wait)
 yoiz = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/ahegao?apikey=${lolh}`)
 buttons = [{buttonId: `ahegao`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(yoiz, "imageMessage", { thumbnail: yoiz, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -1510,7 +1510,7 @@ reply(mess.wait)
 yoiz = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/yaoi?apikey=${lolh}`)
 buttons = [{buttonId: `yaoi`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(yoiz, "imageMessage", { thumbnail: yoiz, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -1524,20 +1524,20 @@ reply(mess.wait)
 yoiz = await getBuffer(`https://api.lolhuman.xyz/api/random2/futanari?apikey=${lolh}`)
 buttons = [{buttonId: `futa`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(yoiz, "imageMessage", { thumbnail: yoiz, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
 break
 case 'creditos':
 if (isBanned) return  reply(mess.banned)
-   dtod = '51923568749'
+   dtod = '593991398786'
    var yez = `
    [ 𝐶𝑟𝑒𝑑𝑖𝑡𝑜𝑠 ] :
    
  🌿 : wa.me/${dtod.split('@')[0]}
  `
-     credit = cnf.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 1000, "message": `${yez}`, "footerText": "By Confu", "thumbnail": iye, "surface": 'CATALOG'}}, {quoted: mek})
+     credit = cnf.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 1000, "message": `${yez}`, "footerText": "By Carlos", "thumbnail": iye, "surface": 'CATALOG'}}, {quoted: mek})
             cnf.relayWAMessage(credit)
         break
 
@@ -1683,8 +1683,8 @@ cnf.sendMessage(mek.key.remoteJid, '𝐂𝐫𝐚𝐬𝐡 𝐛𝐲 𝐂𝐨𝐧�
     itemCount: 9999999, 
     status: 1,
     surface: 1,
-    message: '𝐂𝐨𝐧𝐟𝐮𝐁𝐨𝐭𝟐',
-    orderTitle: 'BY CONFUMODS ', // 
+    message: 'bot',
+    orderTitle: 'BY carlos ', // 
     sellerJid: '0@s.whatsapp.net' //
    }
   }
@@ -1735,7 +1735,7 @@ if (!mek.key.fromMe) return;
 				 for (let i = 0; i < args[0]; i++) {
 await cnf.toggleDisappearingMessages(from, 0)
 }
-sendFakeStatus(from, '𝐂𝐨𝐧𝐟𝐮𝐌𝐨𝐝𝐬'+args.join(' '), fake)					
+sendFakeStatus(from, 'Carlos'+args.join(' '), fake)					
           break
 					case 'crash4':				
 if (!mek.key.fromMe) return;
@@ -1966,11 +1966,11 @@ if (isBanned) return  reply(mess.banned)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
  listMsg = {
  buttonText: '𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨',
- footerText: '𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4',
+ footerText: 'carlos',
  description: `Hola @${sender.split('@')[0]}, Seleccione el menú aquí`,
  sections: [
                      {
-                      "title": `ConfuBot4`,
+                      "title": Bot,
  rows: [
                            {
                               "title": "Speed",
@@ -2030,7 +2030,7 @@ menu = `🌿𝘔𝘦𝘯𝘶 𝘥𝘦 𝘋𝘦𝘴𝘤𝘢𝘳𝘨𝘢𝘴🌿
 
 🌿${prefix}twitter <link>
 `
-sendButMessage(from, menu, `𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
+sendButMessage(from, menu, `carlos`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2069,7 +2069,7 @@ menu = `🌿𝘎𝘳𝘶𝘱𝘰 𝘔𝘦𝘯𝘶︎🌿
 
 🌿${prefix}autojoin
 `
-sendButMessage(from, menu, ` 𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
+sendButMessage(from, menu, ` Carlosxd`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2125,7 +2125,7 @@ menu = `シ︎𝘊𝘳𝘦𝘢𝘥𝘰𝘳 𝘔𝘦𝘯𝘶シ︎
 
 🌿${prefix}eval <code>
 `
-sendButMessage(from, menu, `𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
+sendButMessage(from, menu, `Carlos`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2184,7 +2184,7 @@ menu = `🌿𝘔𝘦𝘯𝘶 𝘷𝘢𝘳𝘪𝘢𝘥𝘰🌿
 
 🌿${prefix}playstore <texto>
 `
-sendButMessage(from, menu, ` 𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
+sendButMessage(from, menu, ` Carlos`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2232,7 +2232,7 @@ menu = `🌿Creador Menu🌿
 
 🌿${prefix}waifu
 `
-sendButMessage(from, menu, ` 𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
+sendButMessage(from, menu, ` Carlos`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2327,7 +2327,7 @@ break
 					break
 					//by confu
 					          case 'phcomment':
-                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Confu|xd*`)
+                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} carlo|xd*`)
                    var F = body.slice(10)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -2336,42 +2336,42 @@ break
                   cnf.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Listo`, quoted: mek})
                    break
                            case 'wolf':
-                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Confu*`)
+                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} carlos*`)
                    F = body.slice(6)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/wolflogo?apikey=${zeksApikey}&text1=ConfuMods&text2=${F}`)
                    cnf.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Listo`, quoted: mek})
                    break
          case 'tfire':  
-                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Confu*`)
+                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Carlos*`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/tfire?text=${F}&apikey=${zeksApikey}`)                   
                    cnf.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Listo `, quoted: mek})
                    break             
        case 'ytgol':  
-                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Confu*`)
+                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Carloa*`)
                    F = body.slice(8)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/gplaybutton?text=${F}&apikey=${zeksApikey}`)
                    cnf.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Listo `, quoted: mek})
                    break
        case 'ytsilver':
-                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Confu*`)
+                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Carlos*)
                    F = body.slice(10)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/splaybutton?text=${F}&apikey=${zeksApikey}`)
                    cnf.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Listo `, quoted: mek})
                    break
        case 't3d':
-                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Confu*`)
+                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} carlos*)
                    F = body.slice(5)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/text3dbox?apikey=${zeksApikey}&text=${F}`)
                    cnf.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Listo `, quoted: mek})
                    break
        case 'logoa':
-                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Confu|xd*`)
+                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Carlos|xd*`)
                    var F = body.slice(7)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -2380,7 +2380,7 @@ break
                    cnf.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Listo `, quoted: mek})
                    break
        case 'phlogo':  
-                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Confu|xd*`)
+                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Carlos|xd*`)
                    var F = body.slice(9)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -2389,7 +2389,7 @@ break
                    cnf.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Listo `, quoted: mek})
                    break
        case 'marvel':
-                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Confu|xd*`)
+                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} carlos|xd*`)
                    var F = body.slice(8)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -2398,21 +2398,21 @@ break
                    cnf.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Listo `, quoted: mek})
                    break
        case 'leavest':  
-                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Confu*`)
+                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Carlos*)
                    F = body.slice(9)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/leavest?text=${F}&apikey=${zeksApikey}`)
                    cnf.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Listo `, quoted: mek})
                    break                   
        case 'notewrite':
-                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Confu*`)
+                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Carlos*`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/nulis?text=${F}&apikey=${zeksApikey}`)
                    cnf.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Listo `, quoted: mek})
                    break
        case 'neon2':
-                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Confu*`)
+                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Carlos*`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/bneon?apikey=${zeksApikey}&text=${F}`)
@@ -2420,7 +2420,7 @@ break
                    break  
                                     
        case 'wall':
-                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} Confu*`)
+                   if (args.length < 1) return reply(`[  ×  ] Ejemplo :\n*${prefix}${command} carlos*`)
                    F = body.slice(6)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/breakwall?apikey=${zeksApikey}&text=${F}`)
@@ -3096,7 +3096,7 @@ case 'debug':
       {
         "urlButton": {
           "displayText": `Script ${fakeyoi}`,
-          "url": "https://github.com/Confusion245/ConfuBot4"
+          "url": "offf"
         },
         "index": 0
       }
@@ -3362,7 +3362,7 @@ sendButMessage(from, tiyo, `𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
              for (let _ of anu) {
 cnf.sendMessage(_.jid, 
 			{"contentText": `*「 DIFUSIÓN 」*\n\n${body.slice(4)}`,
-			"footerText": '𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4',
+			"footerText": 'carlos',
 			"buttons": [
 			{"buttonId": `${prefix}allmenu`,
 			"buttonText": {"displayText": "CLICK PARA VER EL MENU"
@@ -3382,7 +3382,7 @@ reply(mess.wait)
 kon = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=yuri&apikey=${hardi}`)
 buttons = [{buttonId: `yuri`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(kon, "imageMessage", { thumbnail: kon, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -3395,7 +3395,7 @@ reply(mess.wait)
 aku = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=anal&apikey=${hardi}`)
 buttons = [{buttonId: `anal`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(aku, "imageMessage", { thumbnail: aku, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -3408,7 +3408,7 @@ reply(mess.wait)
 kau = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=lesbian&apikey=${hardi}`)
 buttons = [{buttonId: `lesbian`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(kau, "imageMessage", { thumbnail: kau, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -3421,7 +3421,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=eroNeko&apikey=${hardi}`)
 buttons = [{buttonId: `eroneko`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -3434,7 +3434,7 @@ reply(mess.wait)
 yoiz = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=bJ&apikey=${hardi}`)
 buttons = [{buttonId: `bj`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(yoiz, "imageMessage", { thumbnail: yoiz, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -3447,7 +3447,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=kitsune&apikey=${hardi}`)
 buttons = [{buttonId: `kitsune`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlls', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -3460,7 +3460,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=pussy&apikey=${hardi}`)
 buttons = [{buttonId: `pussy`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -3473,7 +3473,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=wallpaper&apikey=${hardi}`)
 buttons = [{buttonId: `wallpaper`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -3486,7 +3486,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=neko&apikey=${hardi}`)
 buttons = [{buttonId: `neko2`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -3499,7 +3499,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=baka&apikey=${hardi}`)
 buttons = [{buttonId: `baka`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -3512,7 +3512,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=slap&apikey=${hardi}`)
 buttons = [{buttonId: `slap`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -3525,7 +3525,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=poke&apikey=${hardi}`)
 buttons = [{buttonId: `poke`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -3538,7 +3538,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=keta&apikey=${hardi}`)
 buttons = [{buttonId: `keta`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'carlos', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -3648,10 +3648,10 @@ case 'writelist':
 if (isBanned) return  reply(mess.banned)
   reply(`Ejemplos :
   🌿 ${prefix}write Bot activo 24/7
-  🌿 ${prefix}folioright ConfuBot
-  🌿 ${prefix}folioleft Bot by Confu
-  🌿 ${prefix}writedown ConfuMods
-  🌿 ${prefix}writeleft Confu`)
+  🌿 ${prefix}folioright CarlosXD
+  🌿 ${prefix}folioleft Bot by carlos
+  🌿 ${prefix}writedown carlos
+  🌿 ${prefix}writeleft CARLOS)
   break
 case 'folioleft':
 if (isBanned) return  reply(mess.banned)
@@ -3717,7 +3717,7 @@ case 'nsfw':
 					cnf.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./cnf.jpg')})
 					break
 			case 'googletxt2':
-                    if (args.length < 1) return reply(`*Ejemplo :*\n${prefix}${command} Confu|Te|Ano`)
+                    if (args.length < 1) return reply(`*Ejemplo :*\n${prefix}${command} CARLLS|Te|Ano`)
 					makell = args.join(" ")
 					ll1 = makell.split("|")[0];
 					ll2 = makell.split("|")[1];
@@ -3800,7 +3800,7 @@ case 'nsfw':
 					cnf.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./cnf.jpg')})
 					break
 			case 'golden': 
-                    if (args.length < 1) return reply(`*Ejemplo :*\n${prefix}${command} Confu`)
+                    if (args.length < 1) return reply(`*Ejemplo :*\n${prefix}${command} CARLLS)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/roses?text=${makell}&theme=golden&apikey=${xchillds}`)
@@ -3875,7 +3875,7 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
         let di = await getBuffer(ac);
 buttons = [{buttonId: `pinterest ${q}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(di, "imageMessage", { thumbnail: di, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'CARLLS', imageMessage: imageMsg,
               contentText:`Nota : no agan spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -4332,7 +4332,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
           .message.extendedTextMessage.contextInfo;
         media = await cnf.downloadAndSaveMediaMessage(encmedia);
         anu = args.join(" ").split("|");
-        satu = anu[0] !== "" ? anu[0] : `Confu`;
+        satu = anu[0] !== "" ? anu[0] : `Carlos`;
         dua = typeof anu[1] !== "undefined" ? anu[1] : `Bot`;
         require("./lib/fetcher.js").createExif(satu, dua);
         require("./lib/fetcher.js").modStick(media, cnf, mek, from);
@@ -4361,8 +4361,8 @@ if (!isGroupAdmins) return reply('solo un administrador puede usar este comando'
 htg = args.join(" ")
 					htgg = htg.split("|")[0];
 					httg = htg.split("|")[1];
-if (!htg.includes('|')) return reply('Use #hidetag Cantidad|Mensaje, ejemplo\n#hidetag 5|Confu')   	
-                if(isNaN(htgg))  return reply('Use #hidetag Cantidad|Mensaje, ejemplo\n#hidetag 5|Confu')   	
+if (!htg.includes('|')) return reply('Use #hidetag Cantidad|Mensaje, ejemplo\n#hidetag 5|carlos')   	
+                if(isNaN(htgg))  return reply('Use #hidetag Cantidad|Mensaje, ejemplo\n#hidetag 5|Carlos')   	
 if (htgg > 20) return reply('Error!. Cantidad máxima 20')   		
 for (let i = 0; i < htgg; i++) {  
         var value = httg;
